@@ -8,9 +8,18 @@
       "first-quarter title last-quarter"
       "wane-cres full wax-cres"
       "wane-gib new wax-gib";
+    place-items: center;
+    background-color: rgb(219, 218, 216);
+    border: 4px solid black;
+    border-radius: 4%;
+    margin-top: 40px;
   }
   
-  .title { grid-area: title; }
+  .title { 
+    grid-area: title;
+    font-weight: 900;
+    font-size: xx-large;
+ }
   
   .first-quarter { grid-area: first-quarter; }
   
@@ -28,3 +37,6 @@
   
   .wax-gib { grid-area: wax-gib; }
   
+  img {
+    border-radius: 6%;
+  }
